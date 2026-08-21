@@ -1,0 +1,11 @@
+# Configuration for git attributes
+# Do not edit manually
+
+*.map linguist-generated
+
+*.tsx linguist-detectable
+public/**/*.html linguist-vendored
+src/*.ts linguist-detectable
+package-lock.json linguist-generated
+
+*.htm linguist-vendored
